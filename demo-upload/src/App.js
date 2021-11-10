@@ -94,7 +94,7 @@ function App() {
 
   return (
     <div className="App">
-     <Upload accept=".xlsx, .xls, .pdf, .png" customRequest={handleUpload} onChange={propsConfigUpload}>
+     <Upload accept=".xlsx, .xls, .pdf, image/*" customRequest={handleUpload} onChange={propsConfigUpload}>
        <Button icon={<UploadOutlined/>}>Upload Excel</Button>
        </Upload>
        <ul>
